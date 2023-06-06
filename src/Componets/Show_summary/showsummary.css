@@ -1,0 +1,29 @@
+.summary-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.original-image{
+    float: left;
+    align-self: center;
+    border: 10px;
+    height: 40rem;
+    float: left;
+}
+
+.summary-detail-info{
+    align-self: center;
+    float: right;
+}
+
+h1,h2,h3{
+    padding: 10px 0;
+    color: cornflowerblue;
+}
+
+p{
+    display: flex;
+    color: cornflowerblue;
+}

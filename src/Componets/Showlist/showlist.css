@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.header{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.showlist-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 4rem;
+}
+
+.show-info{
+    border: 1px solid white;
+    padding: 20px 20px;
+    align-items: center;
+}
+
+.show-midium-img{
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.summary-btn{
+    background: #00FF00;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
