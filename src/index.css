@@ -34,6 +34,13 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  padding: 10px 0;
+  color: cornflowerblue;
+}
+
+h2,h3{
+  padding: 10px 0;
+  color: cornflowerblue;
 }
 
 button {

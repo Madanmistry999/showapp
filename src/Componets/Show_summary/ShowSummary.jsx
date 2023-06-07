@@ -34,8 +34,8 @@ const ShowSummary = () => {
                     <h2>IMDB : {detail.show['rating']['average'] === null ? 0 : detail.show['rating']['average'] }/10</h2>
                     <h3>Genres: {detail.show['genres']}</h3>
                     <h3>Language : {detail.show['language']}</h3>
-                    <h3>First Episode Release Date : {detail.show['started']}</h3>
-                    <h3>Last Episode Date : {detail.show['ended']}</h3>
+                    <h3>First Episode Release Date : {detail.show['premiered']}</h3>
+                    <h3>Last Episode Date : {detail.show['ended'] === null ? '-' : detail.show['ended']}</h3>
 
                      <p>{detail.show['summary']}</p>
                   </div>
